@@ -8,5 +8,11 @@ import java.util.Optional;
 
 @Repository
 public interface BrandRepository extends JpaRepository<Brand,Long> {
+    // Kiem tra brand name da ton tai chua
+    boolean existsByBrandName(String brandName);
+    // tìm theo brandName
+
     Optional<Brand> findByBrandName(String brandName);
+
+    boolean existsById(Long id);
 }

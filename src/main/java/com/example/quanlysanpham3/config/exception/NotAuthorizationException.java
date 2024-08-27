@@ -1,4 +1,4 @@
-package com.project.server.infrastructure.exception.custom;
+package com.example.quanlysanpham3.config.exception;
 
 public class NotAuthorizationException extends RuntimeException {
 

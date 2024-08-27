@@ -1,4 +1,4 @@
-package com.project.server.infrastructure.exception.custom;
+package com.example.quanlysanpham3.config.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

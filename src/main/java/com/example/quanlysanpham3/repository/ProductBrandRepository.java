@@ -8,5 +8,5 @@ import java.util.Optional;
 
 @Repository
 public interface ProductBrandRepository extends JpaRepository<ProductBrand,Long> {
-//    Optional<ProductBrand> updateBrandForProduct(Long productId, Long brandId);
+    ProductBrand findByProductId(long productId);
 }

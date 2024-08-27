@@ -8,5 +8,8 @@ import java.util.Optional;
 
 @Repository
 public interface SubCategoryRepository extends JpaRepository<SubCategory,Long> {
+    // kiem tra SubCategoryRepository co ton tai khong
+    boolean existsBySubCateName(String cateName);
+    // tìm theo tên subcateName
     Optional<SubCategory> findBySubCateName(String subCateName);
 }
